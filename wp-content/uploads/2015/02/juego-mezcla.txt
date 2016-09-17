@@ -1,0 +1,30 @@
+smallword + civ_IV + age
+
+
+smallword:
+
+aleatoriedad al escojer civilizaciones (varias posibilidades)
+
+
+civ_IV:
+
+tablero (no visible), tipos de movimiento
+
+
+age:
+
+cooperatividad
+
+tropas máx.
+
+
+7 wonders:
+
+selección "suerte" -> acciones (especiales)?
+
+rapidez sin opcion -> sencillo -> MUY rápido
+
+
+
+
+para PC -> cómodo, bonito

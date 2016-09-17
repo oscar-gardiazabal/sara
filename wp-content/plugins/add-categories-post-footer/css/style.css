@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+#ln_admin table {
+    width: 770px;
+	text-align:center;
+	}
+	#ln_admin table tr td {
+    padding: 5px 0;
+}
+	#ln_admin table .title{
+   background:#666;
+   color:#FFF;
+	}
+	#ln_admin table .title1{
+   background:#ccc;
+   color:#000;
+	}
+	#ln_admin table .red{
+   color:#F00;
+	}

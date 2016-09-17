@@ -1,0 +1,62 @@
+1.0
+First Version- removed functions needed for a private portal website.
+
+1.1
+Fixed some code in the footer for divs and sub page template
+
+1.2
+Theme submitted for review
+
+1.3
+Theme review Suggested the following changes which have been carried out:
+Changed readme.txt with correct theme name for copyright
+Got rid of the confusing license part on the terms and conditions page of my website which did not relate to WordPress themes
+Fixed unique theme slug in functions.php for menus
+Escaped user entered data in header.php for home_url and bloginfo
+Removed php flush from header
+removed css and js files which were not being enqueued
+Removed IE6 checks in header
+Updated Translation Po
+Changed header file with correct respond js for Bootstrap (html5shiv.js and respond.min.js)
+Added conditional for full page display if on a bbpress page to the header || class_exists('bbPress') && is_bbpress()
+Changed CSS - h1 entry title size.
+
+1.4
+Forgot to update footer with corresponding || class_exists('bbPress') && is_bbpress()- updated now
+Fixed matching conditional statements for header and footer (full page or left column page layout)
+
+1.5
+The Heading color is tough to read with a red background- fixed with #000
+Need styling for the navigations of the gallery - fixed so don't go over the image.
+The live preview for site title doesn't seems to work in customize, nor does it refresh. Fixed by adding class="site-title" to the <h1> tag
+Changed copyright notice in readme.txt
+Removed headers folder in images folder of theme as not used.
+The videos need a proper width or an alignment -added content width in function.php and recommended css from http://codex.wordpress.org/Content_Width
+The chat, quote and the link post needed padding
+The sidebar image for text widget overflows- added rule in stylesheet for div.well img
+Removed logged out sidebar widget from header.php and functions.php- not needed
+enqueued the respond.min.js and html5shiv.js in functions.php conditionally
+
+1.6
+Added class to the H1 tag class="site-title" and got the colour change to work
+Declared content width at the top of functions.php and corrected to the right width 828.
+Images in text widget areas fixed with setting max-width css property
+
+1.7
+Changed Screenshot
+
+1.8
+Issue: It is not needed to register internal styles and enqueue it after that- fixed in functions.php
+
+1.9
+I was testing with the beta buddypress without bbpress active and noticed the profile pages were not full width- so I have fixed this adding bp_is_user() to the statements in header.php and footer.php.(See http://codex.buddypress.org/developer/template-tag-reference/ for more information on tags).
+Added a css override for td.label in style.css so the labels show up on the profile pages for buddypress
+
+2.0
+Noticed that member pages if using buddypress were not ful width so have added || function_exists('bp_is_active') && bp_is_current_component( 'members' ) to header and footer files to fix this.
+Changed style sheet rules to fit better with bootstrap styles on the links and colours for post formats.
+
+2.1
+Added missing images into images folder that were referenced in the style.css
+Fixed some minor HTML validation errors in public-subpages-4-column.php and public-subpages.php, deleted the skip to content anchor link. 
+
